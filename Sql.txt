@@ -1,1 +1,7 @@
-Напиши звпрос на создание таблицы töötaja, с полями töötajaID eesnimi, perekonnanimi.
+﻿Напиши звпрос на создание таблицы töötaja, с полями töötajaID eesnimi, perekonnanimi.
+
+CREATE TABLE tootaja (
+    tootajaID int PRIMARY KEY AUTO_INCREMENT,
+    eesnimi varchar(20),
+    perekonnanimi varchar(20),
+); 
